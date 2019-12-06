@@ -142,8 +142,5 @@ Pediatrician? Speech monitor? Dietician? Monitor of psychomotricity? Educators? 
 
 <category><pattern>Thank</pattern><template><srai>THANK YOU</srai></template></category>
 
-<category>
-    <pattern>Click node to edit pattern</pattern>
-    <template>Click node to edit template</template>
-</category>
+
 </aiml>

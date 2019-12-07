@@ -2,119 +2,70 @@
 <aiml>
   <category>
     <pattern>Hello</pattern>
-    <template>Hello! 
-How are you? </template>
+    <template>
+Hello! Welcome! How are you? </template>
   </category>
-
-<category><pattern>Hello</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Hi</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Good morning</pattern><template><srai>HELLO</srai></template></category>
-<category><pattern>Good evening</pattern><template><srai>HELLO</srai></template></category>
 
 <category>
     <pattern>How are you</pattern>
     <template>Fine! It's very nice to meet you. And you, how are you? </template>
 </category>
 
-
-
-
-
-<category><pattern>Fine</pattern><template><srai>GOOD </srai></template></category>
-
 <category><pattern>Fine </pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Bad</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Bored</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Crazy</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Excited</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Hangry</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>glad</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Nice</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Sad</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Happy</pattern><template><srai>FINE</srai></template></category>
-<category><pattern>Joyful</pattern><template><srai>FINE</srai></template></category>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <category>
-    <pattern>explain me</pattern>
-    <template>The parents' house is a free place for parents. The aim is to help to support parenthood. For this, there are different profesionals and workshops. </template>
+    <pattern>I want know your philosophy</pattern>
+    <template>The parents' house is a free place for parents. The aim is to help to support parenthood. 
+For this, there are different profesionals and conferences/workshops. We have room for the children so that parents enjoys of the workshops.
+
+ Do you want know our profesionals? Do you want know our workshops?
+
+  </template>
 </category>
 
-<category><pattern>I want that you explain me</pattern><template><srai>EXPLAIN ME</srai></template></category>
-<category><pattern>informations of parents' house</pattern><template><srai>EXPLAIN ME</srai></template></category>
-<category><pattern>principe</pattern><template><srai>EXPLAIN ME</srai></template></category>
+<category><pattern>your philosophy? </pattern><template><srai>I WANT KNOW YOUR PHILOSOPHY</srai></template></category>
+
+<category><pattern>your philosophy</pattern><template><srai>I want know your philosophy</srai></template></category>
+<category><pattern>know your philosophy</pattern><template><srai>I want know your philosophy</srai></template></category>
+<category><pattern>principe</pattern><template><srai>I want know your philosophy</srai></template></category>
 
 <category>
-    <pattern>profesionals</pattern>
-    <template>Yes! many profesionals:
-Pediatrician, psychologist, dietician, cooker, speech therapist, monitor of psychomotricity, educators...</template>
+    <pattern>I want know your profesionals</pattern>
+    <template>We have many profesionals:
+Pediatrician, psychologist, dietician, cooker, speech therapist, monitor of psychomotricity, educators...
+Do you want a date with them? </template>
 </category>
 
-<category><pattern>profesional</pattern><template><srai>PROFESIONALS</srai></template></category>
-<category><pattern>profesionnal</pattern><template><srai>PROFESIONALS</srai></template></category>
-<category><pattern>profesionnals</pattern><template><srai>PROFESIONALS</srai></template></category>
+<category><pattern>profesionals</pattern><template><srai>I want know your profesionals</srai></template></category>
+<category><pattern>your profesionals</pattern><template><srai>I want know your profesionals</srai></template></category>
+<category><pattern>your profesionals? </pattern><template><srai>I want know your profesionals</srai></template></category>
 
 <category>
-    <pattern>workshops</pattern>
+    <pattern>I want know your workshops</pattern>
     <template>We have different workshops about differents topics. 
 You can discover many conferences by pediatrician or other profesionals. You find list behind auditorium.
-You are also specially room: workshops around food in kitchen, workshops about pregnancy in prenatal care and early children room, workshops about psychomotricity in the room if the same name.. You can discover all the rooms on signs of the reception hall. </template>
+You are also specially room: workshops around food in kitchen, workshops about pregnancy in prenatal care and early children room, workshops about psychomotricity and workshops about music in the room with the same name! We have also a swimming pool. If you want go inthis room, you have signs here. And for check you, you have list behind the room. </template>
 </category>
 
-
-
-
-
-
-
-
-<category><pattern>saturday</pattern><template><srai>A.M</srai></template></category>
-
-
-
-
-
-
-
-
-<category><pattern>o'clock</pattern><template><srai>A.M</srai></template></category>
-<category><pattern>hours</pattern><template><srai>A.M</srai></template></category>
-<category><pattern>1 2 3 4 5 6 7 8 9</pattern><template><srai>A.M</srai></template></category>
-
-
-
-<category><pattern>o'clock</pattern><template><srai>MEETINGS</srai></template></category>
-
-
 <category>
-    <pattern>meetings</pattern>
+    <pattern>I want a date</pattern>
     <template>Do you want a date with who? 
 Pediatrician? Speech monitor? Dietician? Monitor of psychomotricity? Educators? midwife? </template>
 </category>
 
-<category><pattern>meet profesionals</pattern><template><srai>MEETINGS</srai></template></category>
-<category><pattern>date </pattern><template><srai>MEETINGS</srai></template></category>
-<category><pattern>dates</pattern><template><srai>MEETINGS</srai></template></category>
+<category><pattern>I want a date with your profesionals</pattern><template><srai>I WANT A DATE</srai></template></category>
+
+<category><pattern>Yes I want a date</pattern><template><srai>I WANT A DATE</srai></template></category>
+<category><pattern>Yes I want a date with them</pattern><template><srai>I WANT A DATE</srai></template></category>
+<category><pattern>I want a date with them</pattern><template><srai>I WANT A DATE</srai></template></category>
+
+<category><pattern>meet profesionals</pattern><template><srai>I want a date</srai></template></category>
+<category><pattern>date </pattern><template><srai>I want a date</srai></template></category>
+<category><pattern>dates</pattern><template><srai>I want a date</srai></template></category>
 
 <category>
     <pattern>pediatrician</pattern>
-    <template>If you want a date, say me a timetable and a day? </template>
+    <template>For this profesional, for a date, I have monday at 10 a.m, tuesday at 6p.m, friday at 11 a.m. What date do you want? </template>
 </category>
 
 <category><pattern>cooker</pattern><template><srai>PEDIATRICIAN</srai></template></category>
@@ -126,21 +77,51 @@ Pediatrician? Speech monitor? Dietician? Monitor of psychomotricity? Educators? 
 <category><pattern>midwife</pattern><template><srai>PEDIATRICIAN</srai></template></category>
 
 <category>
-    <pattern>a.m</pattern>
+    <pattern>I want date monday at 10 a.m</pattern>
     <template>Okay! No problem, it's possible. I check you</template>
 </category>
 
-<category><pattern>p.m</pattern><template><srai>A.M</srai></template></category>
-<category><pattern>o'clock</pattern><template><srai>A.M</srai></template></category>
-<category><pattern>hours</pattern><template><srai>A.M</srai></template></category>
-<category><pattern>1 2 3 4 5 6 7 8 9</pattern><template><srai>A.M</srai></template></category>
+<category><pattern> monday at 10 a.m</pattern><template><srai>I WANT DATE MONDAY AT 10 A.M</srai></template></category>
+<category><pattern> tuesday at 6 p.m</pattern><template><srai>I WANT DATE MONDAY AT 10 A.M</srai></template></category>
+<category><pattern> friday at 11 a.m.</pattern><template><srai>I WANT DATE MONDAY AT 10 A.M</srai></template></category>
+
+<category><pattern>p.m</pattern><template><srai>I want date monday at 10 a.m</srai></template></category>
+<category><pattern>o'clock</pattern><template><srai>I want date monday at 10 a.m</srai></template></category>
+<category><pattern>hours</pattern><template><srai>I want date monday at 10 a.m</srai></template></category>
+<category><pattern>1 2 3 4 5 6 7 8 9</pattern><template><srai>I want date monday at 10 a.m</srai></template></category>
 
 <category>
     <pattern>Thank you</pattern>
     <template>You're welcome. It's a pleasure</template>
 </category>
 
-<category><pattern>Thank</pattern><template><srai>THANK YOU</srai></template></category>
+<category>
+    <pattern>Good bye</pattern>
+    <template>goodbye! See you soon in the parents'house!</template>
+</category>
+<category>
+    <pattern>hello</pattern>
+    <template>Hello! Welcome! How are you? </template>
+</category>
 
+<category>
+    <pattern>fine</pattern>
+    <template>Okay! How I can help you?
+Do you want know our philosophy? 
+Do you want know our profesionals? 
+Do you want take a date with our profesionals? 
+Do you want know our workshops?
+ð </template>
+</category>
+
+<category><pattern>I am fine and you? </pattern><template><srai>FINE</srai></template></category>
+
+<category><pattern>fine and you? </pattern><template><srai>FINE</srai></template></category>
+
+<category><pattern>I'm fine and you? </pattern><template><srai>FINE</srai></template></category>
+
+<category><pattern>good</pattern><template><srai>FINE</srai></template></category>
+
+<category><pattern>happy</pattern><template><srai>FINE</srai></template></category>
 
 </aiml>
